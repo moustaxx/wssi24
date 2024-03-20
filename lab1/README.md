@@ -111,6 +111,9 @@ Sztuczne systemy są w stanie skutecznie imitować następujące rodzaje komunik
    podzielę się swoimi spostrzeżeniami.
 
  - Boty asystujące zdają się być nie podatne na "zdenerwowanie".
-   
- - Z kolei boty udające człowieka już jak najbardziej się da "zdenerwować".
+   ![dd](/assets/lab1/assets/ChatGPTAngry.png)
+   ![dd](/assets/lab1/assets/IkeaAngry.png)
+   ![dd](/assets/lab1/assets/IkeaAngry2.png)
 
+ - Z kolei boty udające człowieka już jak najbardziej się da "zdenerwować".
+   ![dd](/assets/lab1/assets/PersonalityForge.png)
