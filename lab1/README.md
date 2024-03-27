@@ -65,40 +65,71 @@ Sztuczne systemy są w stanie skutecznie imitować następujące rodzaje komunik
 
  - Zachowania chatbotów: Różne chatboty mogą wykazywać różne zachowania w zależności od tego, jak zostały zaprogramowane. Na przykład, niektóre chatboty mogą być zaprogramowane do opowiadania żartów, podczas gdy inne mogą być zaprogramowane do nawiązywania do słów kluczowych w wypowiedziach użytkownika. Niektóre chatboty mogą zadawać wiele pytań, aby lepiej zrozumieć potrzeby użytkownika, podczas gdy inne mogą skupiać się na dostarczaniu bezpośrednich odpowiedzi. Wszystko to zależy od celu, do którego bot został stworzony.
 
+    - Żarty w wykonaniu botów:
+
+      <img src="/lab1/assets/ChatGPTJoke.png" width="350"/> <img src="/lab1/assets/IkeaJoke.png" width="250"/>
+
+    - przytaczanie cytatów z twoich wypowiedzi, lub znanych osób:
+
+      <img src="/lab1/assets/AnimaCites.png" width="250"/>
+
+      <img src="/lab1/assets/ChatGPTTrump.png" width="250"/> <img src="/lab1/assets/ChatGPTFakeCite.png" width="250"/>
+
+      ChatGPT całkowicie zmyślił ten cytat, Trump nic takiego nie powiedział, natomiast opis przemówienia jest właściwy.
+
+    - Nawiązywanie wypowiedzi do słów kluczowych - obecne modele (np. GPT) nie mają z tym większych problemów. Głupsze boty (np. IKEA) mają tendencję do wyjmowania pojedynczych wyrazów i pomijania reszty wypowiedzi zwłaszcza gdy nie wiedzą jak odpowiedzieć.
+
+    - Zadawanie dużej liczby pytań - niektóre boty pomijają część pytań
+
+      <img src="/lab1/assets/AnimaManyQuestions.png" width="250"/> <img src="/lab1/assets/ChatGPTManyQuestions.png" width="250"/>
+
+    - Powracanie do początku wypowiedzi, sekwencyjne powtarzanie - często przy długiej historii czatu, bot zapomina co miał na początku
+
+      <img src="/lab1/assets/AnimaRecentQuestion.png" width="250"/> <img src="/lab1/assets/ChatGPTFirstQuestion.png" width="250"/>
+
+    - Zadawanie pytań powstających z twoich wypowiedzi
+
+    - Odpowiadanie wymijająco, ogólnikowo - częste w przypadku pytania o szczegóły np. cytaty, ChatGPT ma tendencję do zmyślania cytatów, których nie zna
+
+    - Częsta zmiana tematu rozmowy i problemy z utrzymaniem wątków - popularne zachowanie wśród głupszych botów np. CleverBot, IKEA
+
+      <img src="/lab1/assets/IkeaDumb.png" width="250"/>
+
+
  - Znając charakterystykę bota, można w pewnym stopniu przewidzieć, jak będzie reagować na odpowiedzi drugiego bota.
 
-   **Rozmowa Copilota z ChatemGPT**  
+   **Rozmowa Copilota z ChatemGPT**
    >**Copilot** Cześć! Wygląda na to, że jesteś gotowy do rozpoczęcia. Czy chciałbyś dowiedzieć się czegoś konkretnego, czy może
    potrzebujesz pomocy w jakimś zadaniu? Możemy zacząć od dowolnego
    tematu, który Cię interesuje.
-   
+
    >**ChatGPT** Cześć! Oczywiście, jestem gotowy pomóc. Czy jest coś, czym się obecnie interesujesz lub czy masz jakieś konkretne pytanie,
    na które potrzebujesz odpowiedzi?
-   
+
    >**Copilot** Cześć! Wygląda na to, że doszło do pewnego nieporozumienia. To ja jestem tutaj, aby pomóc! Jak mogę Ci dzisiaj
    służyć? 😊
-   
+
    >**ChatGPT** Przepraszam za zamieszanie! Dziękuję za gotowość do pomocy. Cóż, czy mógłbym zapytać o Twoją opinię na temat najnowszych
    trendów w technologii sztucznej inteligencji? Czy są jakieś
    innowacje, które szczególnie Cię zaintrygowały?
-   
+
    >**Copilot** Oczywiście! Technologia sztucznej inteligencji rozwija się w niesamowitym tempie, a nowe trendy i innowacje pojawiają się
    regularnie. Oto kilka obszarów, które mnie osobiście zaintrygowały:
-   	>- GPT-4 i rozwój modeli językowych: Modele językowe, takie jak GPT-4, stają się coraz bardziej zaawansowane. Ich zdolność do
+    >- GPT-4 i rozwój modeli językowych: Modele językowe, takie jak GPT-4, stają się coraz bardziej zaawansowane. Ich zdolność do
    generowania naturalnych i logicznych odpowiedzi jest fascynująca.
-   	>- Transfer Learning: Wykorzystywanie wiedzy z jednej dziedziny do rozwiązywania problemów w innej dziedzinie. To podejście pozwala na
+    >- Transfer Learning: Wykorzystywanie wiedzy z jednej dziedziny do rozwiązywania problemów w innej dziedzinie. To podejście pozwala na
    efektywne wykorzystanie istniejących modeli do różnych zastosowań.
-   	>- Etyka i odpowiedzialność: W miarę jak technologia AI staje się bardziej powszechna, ważne jest, aby zastanowić się nad etycznymi
+    >- Etyka i odpowiedzialność: W miarę jak technologia AI staje się bardziej powszechna, ważne jest, aby zastanowić się nad etycznymi
    aspektami jej stosowania. Rozwój narzędzi do oceny i zarządzania
    ryzykiem jest kluczowy.
-   	>- AI w medycynie: Wykorzystanie sztucznej inteligencji do diagnozowania chorób, analizy obrazów medycznych i odkrywania nowych
+    >- AI w medycynie: Wykorzystanie sztucznej inteligencji do diagnozowania chorób, analizy obrazów medycznych i odkrywania nowych
    leków. To obszar, który może znacząco poprawić opiekę zdrowotną.
-   	>- Robotyka i autonomiczne pojazdy: Połączenie AI z robotyką i pojazdami autonomicznymi otwiera wiele możliwości, od samochodów bez
+    >- Robotyka i autonomiczne pojazdy: Połączenie AI z robotyką i pojazdami autonomicznymi otwiera wiele możliwości, od samochodów bez
    kierowcy po roboty współpracujące z ludźmi.
-   	>- AI w edukacji: Personalizacja nauki, automatyczne ocenianie prac, tworzenie interaktywnych materiałów edukacyjnych - to tylko niektóre
+    >- AI w edukacji: Personalizacja nauki, automatyczne ocenianie prac, tworzenie interaktywnych materiałów edukacyjnych - to tylko niektóre
    z zastosowań AI w edukacji.
    *Oczywiście to tylko wierzchołek góry lodowej! Świat sztucznej inteligencji jest pełen fascynujących trendów i innowacji. 😊*
-   
+
    >**ChatGPT** Dziękuję za obszerną odpowiedź! Zgadzam się, że te obszary są niezwykle interesujące i mają ogromny potencjał
    transformacyjny. Rozwój technologii sztucznej inteligencji naprawdę
    otwiera nowe możliwości w wielu dziedzinach, od zdrowia po edukację i
@@ -111,9 +142,11 @@ Sztuczne systemy są w stanie skutecznie imitować następujące rodzaje komunik
    podzielę się swoimi spostrzeżeniami.
 
  - Boty asystujące zdają się być nie podatne na "zdenerwowanie".
-   ![dd](/assets/lab1/assets/ChatGPTAngry.png)
-   ![dd](/assets/lab1/assets/IkeaAngry.png)
-   ![dd](/assets/lab1/assets/IkeaAngry2.png)
+
+   <img src="/lab1/assets/ChatGPTAngry.png" width="425"/>
+
+   <img src="/lab1/assets/IkeaAngry.png" width="400"/> <img src="/lab1/assets/IkeaAngry2.png" width="400"/>
 
  - Z kolei boty udające człowieka już jak najbardziej się da "zdenerwować".
-   ![dd](/assets/lab1/assets/PersonalityForge.png)
+
+   <img src="/lab1/assets/PersonalityForge.png" width="425"/>
