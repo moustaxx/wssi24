@@ -1,4 +1,5 @@
 ## Zadanie
+```prolog
 lubi(jan, pawel).
 lubi(pawel, krzysztof).
 lubi(pawel, jan).
@@ -37,12 +38,12 @@ true_love(X, Y) :-
     loves(X, Y),
     \+ (loves(X, Z), Z \= Y, loves(Z, X)),
     \+ (loves(Y, W), W \= X, loves(W, Y)).
-
+```
 
 ## Ćwiczenie 1
 
 A: rodzeństwo
-
+```prolog
 rodzic(jan, pawel).
 rodzic(jan, maria).
 rodzic(adam, pawel).
@@ -52,11 +53,11 @@ rodzic(radek, anna).
 
 rodzenstwo(X, Y) :-
     rodzic(X, Z), rodzic(Y, Z).
+```
 
 
----
 B: kuzyn / brat wujeczny/cioteczny
-
+```prolog
 rodzic(synX, rodzicX).
 rodzic(rodzicX, dziadek).
 rodzic(synY, rodzicY).
@@ -69,11 +70,7 @@ kuzyn(X, Y) :-
     rodzic(X, A), rodzic(Y, B),
     rodzic(A, C), rodzic(B, D),
     C == D.
-
-
-*Zapytanie*
-kuzyn(synX, synY).
-true
+```
 
 C: rodzic zięcia/synowej
 
@@ -87,7 +84,7 @@ G: y dla x to brat i bratanek, x dla y to brat i wujek
 
 
 ## Ćwiczenie 2
-
+```prolog
 rodzic(marek, jan). % X jest rodzicem Y
 rodzic(anna, jan).
 rodzic(marek, adam).
@@ -166,3 +163,4 @@ przodek_do2pokolenia_wstecz(X, Y) :-
 % X jest przodkiem Y do trzeciego pokolenia wstecz
 przodek_do3pokolenia_wstecz(X, Y) :-
     rodzic(X, A), rodzic(A, Z), rodzic(Z, Y).
+```
